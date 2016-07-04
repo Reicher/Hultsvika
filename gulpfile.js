@@ -7,7 +7,6 @@ var browserSync = require('browser-sync').create();
 var debug = require('gulp-debug');
 gulp.task('scripts', () => {
     gulp.src([
-        "tools/**/*.json",
         "lib/phaser.js",
         "src/**/*.js",
     ])

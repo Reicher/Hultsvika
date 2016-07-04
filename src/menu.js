@@ -1,13 +1,13 @@
-LD35.Menu = function(game){
+HV.Menu = function(game){
 
 };
 
-LD35.Menu.prototype = {
+HV.Menu.prototype = {
 	create: function(){
 
-		var text = "LD35 II";
+		var text = "Hultsvika";
 		var style = { font: "30px Arial", fill: "#FFFFFF", align: "center" };
-		var startText = this.game.add.text(LD35.WIDTH/2, 195, text, style);
+		var startText = this.game.add.text(HV.WIDTH/2, 195, text, style);
 		startText.anchor.setTo(0.5, 0);
 
 		this.game.input.onDown.add(this.startGame, this);

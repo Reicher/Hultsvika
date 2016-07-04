@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Ludum dare 35</title>
+  <title>Hultsvika</title>
   <style>
     body {
       margin: 0;
@@ -19,12 +19,12 @@
 
   <script>
     (function() {
-      var game = new Phaser.Game(800, 400, Phaser.CANVAS, 'Ludum Dare 35');
-      game.state.add('Boot', LD35.Boot);
-      game.state.add('Load', LD35.Load);
-      game.state.add('Splash', LD35.Splash);
-      game.state.add('Menu', LD35.Menu);
-      game.state.add('Game', LD35.Game);
+      var game = new Phaser.Game(800, 400, Phaser.CANVAS, 'Hultsvika');
+      game.state.add('Game', HV.Game);
+      game.state.add('Boot', HV.Boot);
+      game.state.add('Load', HV.Load);
+      game.state.add('Splash', HV.Splash);
+      game.state.add('Menu', HV.Menu);
       game.state.start('Boot');
     })();
   </script>

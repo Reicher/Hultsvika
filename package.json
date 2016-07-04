@@ -1,21 +1,21 @@
 {
-  "name": "LudumDare35",
+  "name": "Hultsvika",
   "version": "1.0.0",
-  "description": "Ludum Dare 35",
+  "description": "Hultsvika",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andersrydman/Triangulum-II.git"
+    "url": "git+https://github.com/Reicher/LD35.git"
   },
   "author": "Robin Reicher",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andersrydman/Triangulum-II/issues"
+    "url": "https://github.com/Reicher/LD35.git/issues"
   },
-  "homepage": "https://github.com/andersrydman/Triangulum-II#readme",
+  "homepage": "https://github.com/Reicher/LD35.git#readme",
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.1",

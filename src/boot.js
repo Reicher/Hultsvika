@@ -1,8 +1,8 @@
-var LD35 = {};
-LD35.Boot = function(game) {
+var HV = {};
+HV.Boot = function(game) {
   this.game = game;
 };
-LD35.Boot.prototype = {
+HV.Boot.prototype = {
 
   preload: function () {
     this.game.load.image('preloaderBar', 'assets/Loading_bar.png');
